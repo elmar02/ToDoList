@@ -6,8 +6,8 @@ let initialState={
     completedTasks: 0,
 }
 
-const todoString = localStorage.getItem("todo");
-initialState = JSON.parse(todoString);
+// const todoString = localStorage.getItem("todo");
+// initialState = JSON.parse(todoString);
 
 const toDoSlice = createSlice({
     name: "todo",

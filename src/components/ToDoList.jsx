@@ -1,6 +1,6 @@
-import React, { useRef, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { toDoActions } from '../redux/slices/toDoSlice';
+import { useState } from 'react';
 
 const ToDoList = () => {
     const [inputValue, setInputValue] = useState('');
